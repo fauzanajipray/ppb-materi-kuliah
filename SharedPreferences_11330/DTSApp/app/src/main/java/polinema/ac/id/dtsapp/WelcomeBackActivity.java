@@ -74,7 +74,7 @@ public class WelcomeBackActivity extends AppCompatActivity {
             this.saveUsername();
             this.makeAutoLogin();
         } else {
-          Toast.makeText(this, "Invalid username and / or Paddword", Toast.LENGTH_SHORT).show();
+          Toast.makeText(this, "Invalid username and / or Password", Toast.LENGTH_SHORT).show();
         }
     }
 
